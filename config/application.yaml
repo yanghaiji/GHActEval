@@ -1,0 +1,13 @@
+# 用于编写常用的全局环境配置
+
+# url
+base:
+  url: https://api.github.com/repos/
+
+repos:
+  - mybatis/mybatis-3
+  - baomidou/mybatis-plus
+  - mybatis/spring-boot-starter
+
+# Replace with your GitHub Personal Access Token
+github_token:
