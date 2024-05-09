@@ -1,6 +1,5 @@
 # GHActEval
 
-----
 # 简介
 
 
@@ -19,7 +18,7 @@
 <img  src="https://github.com/yanghaiji/GHActEval/blob/main/doc/img/img.png" width="400" />
 </p>
 
----
+
 # 启动配置
 
 - 修改github_token 
