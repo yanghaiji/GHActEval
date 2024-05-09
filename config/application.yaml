@@ -5,9 +5,79 @@ base:
   url: https://api.github.com/repos/
 
 repos:
-  - mybatis/mybatis-3
-  - baomidou/mybatis-plus
-  - mybatis/spring-boot-starter
+# 数据库连接池
+  - brettwooldridge/HikariCP
+  - apache/commons-dbcp
+  - swaldman/c3p0
+  - h2database/h2database
+  - vibur/vibur-dbcp
+  - alibaba/druid
+ # test
+#  - mockito/mockito
+#  - junit-team/junit5
+#  - testng-team/testng
+#  - hamcrest/JavaHamcrest
+#  - assertj/assertj
+#  - SeleniumHQ/selenium
+# tool
+#  - dromara/hutool
+#  - projectlombok/lombok
+#  - apache/commons-fileupload
+#  - apache/commons-lang
+#  - apache/commons-io
+#  - apache/commons-beanutils
+#  - mapstruct/mapstruct
+#  - google/guava
+#  - apache/commons-collections
+#  - apache/commons-codec
+#  - apache/commons-net
+#  - JodaOrg/joda-time
+#  - apache/commons-validator
+#  - hibernate/hibernate-validator
+#  - apache/commons-math
+# http
+#  - apache/httpcomponents-client
+#  - square/okhttp
+#  - square/retrofit
+#  - OpenFeign/feign
+#  - AsyncHttpClient/async-http-client
+# json
+#  - FasterXML/jackson
+#  - alibaba/fastjson
+#  - google/gson
+#  - json-path/JsonPath
+#  - alibaba/fastjson2
+# 注册中心
+#  - apache/zookeeper
+#  - alibaba/nacos
+#  - hashicorp/consul
+#  - coredns/coredns
+#  - Netflix/eureka
+#security
+#  - spring-projects/spring-security
+#  - apache/shiro
+#  - dromara/sureness
+# logger
+#  - qos-ch/logback
+#  - apache/logging-log4j2
+#  - tinylog-org/tinylog
+# poi
+#  - alibaba/easyexcel
+#  - apache/poi
+#  - jxlsteam/jxls
+#  - jueyue/easypoi
+#  - jeecgboot/autopoi
+# ORM
+#  - mybatis/mybatis-3
+#  - baomidou/mybatis-plus
+#  - spring-projects/spring-data-jpa
+#  - mybatis-flex/mybatis-flex
+#  - atool/fluent-mybatis
+# 脚手架
+#  - helidon-io/helidon
+#  - quarkusio/quarkus
+#  - spring-projects/spring-boot
+#  - eclipse-vertx/vert.x
 
 # Replace with your GitHub Personal Access Token
-github_token:
+github_token: 123456
